@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(15, 2, 2, 1) 11.2%,
+    rgba(36, 163, 190, 1) 91.1%
+  );
+  height: 100vh;
+  color: royalblue;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.container {
+  min-width: 32rem;
+  width: 45%;
+  margin: 5rem auto;
+  background-color: white;
+  padding: 2rem;
+  min-height: 30rem;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title-container {
+  min-height: 10rem;
+  margin-bottom: 1rem;
+}
+.main-title {
+  width: 48%;
+  float: left;
+}
+
+.score-title {
+  width: 48%;
+  float: right;
+}
+
+.main-title .title {
+  font-size: 2rem;
+}
+
+.score-title .scores {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.score-title .scores span {
+  font-weight: 900;
+}
+
+.weapons-container {
+  min-height: 10rem;
+  margin-bottom: 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn-weapon {
+  display: inline-block;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
